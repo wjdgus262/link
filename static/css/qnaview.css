@@ -1,0 +1,274 @@
+.wrap{
+	width: 100%;
+	/*background: red;*/
+	/*height: 2749px;*/
+	/*height: auto;*/
+	overflow:auto; 
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	/*background: red;*/
+}
+.company_top{
+	width: 100%;
+	height: 352px;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+}
+.company_top > img{
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+.mi_div{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 2;
+	background: rgba(1,93,44,0.5);
+}
+.company_title{
+	width: 579px;
+	height: 117px;
+	margin: 0 auto;
+	margin-top: 110px; 
+}
+.company_title > h1{
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+}
+.company_title > p{
+	color: white;
+	text-align: center;
+	font-size: 0.9em;
+	text-shadow: 2px 2px 2px gray;
+}
+.comapny_nav{
+	width: 1335px;
+	height: 235px;
+	background: white;
+	border-radius: 300px;
+	position: absolute;
+	top: 250px;
+	left: 292px;
+	z-index: 3;
+	box-sizing: border-box;
+	padding-top: 56px;
+	padding-left: 68px;
+}
+.comapny_nav > h1{
+	font-size: 27px;
+	margin-right: 65px;
+	text-align: center;
+}
+.comapny_nav > p{
+	text-align: right;
+	margin-right: 180px;
+	margin-top: 10px;
+}
+.qna_view{
+	width: 100%;
+	/*height: 2000px;*/
+	overflow: auto;
+	/*background: red;*/
+	position: relative;
+	z-index: 3;
+	padding-bottom: 100px;
+	top: -50px;
+}
+.qna_view_wrap{
+	width: 1335px;
+	/*height: 100%;*/
+	overflow: auto;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.qna_view_body{
+	width: 100%;
+	/*height: 1000px;*/
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	border-top: 2px solid #6a3bff;
+	border-bottom: 2px solid #6a3bff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.qna_view_a{
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	width: 100%;
+	height: 122px;
+	margin-top: 30px;
+	position: relative;
+}
+.a_success{
+	position: absolute;
+	right: 60px;
+	top: 38.5px;
+	color: white;
+	border: none;
+	width: 100px;
+	height: 45px;
+	background: #6a3bff;
+}
+.a_input{
+	width: 1100px;
+	position: absolute;
+	height: 45px;
+	left: 30px;
+	top: 38.5px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.qna_a_list{
+	width: 100%;
+	/*height: 810px;*/
+	overflow: auto;
+	/*background: blue;*/
+	margin-top: 30px;
+}
+.list_item{
+	width: 100%;
+	margin-top: 20px;
+	overflow: auto;
+	/*height: 400px;*/
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	padding: 20px;
+}
+.list_item_wrap{
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+}
+.list_item_top{
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #6a3bff;
+}
+.list_item_top > div{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.list_item_left{
+	/*background: red;*/
+}
+.a_cirlce{
+	width: 70px;
+	height: 70px;
+	margin-left: 20px;
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+.a_cirlce > img{
+	width: 100%;
+}
+.list_item_left > h1{
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+.check_div{
+	width: 100px;
+	height: 100%;
+	margin-right: 20px;
+	float: right;
+	text-align: center;
+	/*background: red;*/
+}
+.check_div > i{
+	color: #6a3bff;
+	font-size: 40px;
+}
+.check_div > p{
+	color: #6a3bff;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.list_item_body{
+	width: 100%;
+	/*height: 240px;*/
+	overflow: auto;
+	box-sizing: border-box;
+	padding: 5px;
+	/*background: red;*/
+}
+.list_item_body > p{
+	font-size: 18px;
+	line-height: 30px;
+}
+.list_item_btn{
+	width: 100%;
+	height: 40px;
+	/*background: red;*/
+}
+.list_item_btn > button{
+	float: right;
+	color: white;
+	background: #6a3bff;
+	width: 100px;
+	height: 100%;
+	font-size: 17px;
+	border: none;
+	margin-left: 10px;
+}
+.ather_div{
+	position: absolute;
+	width: 91%;
+	height: 50px;
+	/*background: red;*/
+}
+.ather_div > p{
+	float: right;
+	margin-right: 20px;
+	font-size: 17px;
+}
+.checks_div{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right:100px;
+	top: 0;
+	/*background: red;*/
+	box-sizing: border-box;
+	padding-top: 20px;
+	text-align: center;
+}
+.checks_div > i{
+	color: #6a3bff;
+	font-size: 50px;
+}
+.checks_div > p{
+	color: #6a3bff;
+	font-size: 15px;
+	margin-top: 5px;
+}
+.body_buttons{
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	/*background: red;*/
+}
+.body_buttons > button{
+	float: right;
+	width: 100px;
+	height: 100%;
+	margin-right: 10px;
+	color: white;
+	border: none;
+	background: #6a3bff;
+}

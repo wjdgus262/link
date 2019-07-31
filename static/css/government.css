@@ -1,0 +1,493 @@
+.wrap{
+	width: 100%;
+	/*background: red;*/
+	/*height: 2749px;*/
+	/*height: auto;*/
+	overflow:auto; 
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	/*background: red;*/
+}
+.company_top{
+	width: 100%;
+	height: 352px;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+}
+.company_top > img{
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+.mi_div{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 2;
+	background: rgba(1,93,44,0.5);
+}
+.company_title{
+	width: 750px;
+	height: 117px;
+	margin: 0 auto;
+	margin-top: 110px; 
+}
+.company_title > h1{
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+}
+.company_title > p{
+	color: white;
+	text-align: center;
+	font-size: 0.9em;
+	text-shadow: 2px 2px 2px gray;
+}
+.comapny_nav{
+	width: 1335px;
+	height: 235px;
+	background: white;
+	border-radius: 300px;
+	position: absolute;
+	top: 250px;
+	left: 292px;
+	z-index: 3;
+	box-sizing: border-box;
+	padding-top: 56px;
+	padding-left: 68px;
+}
+.comapny_nav > h1{
+	text-align: center;
+	font-size: 25px;
+}
+.gove_section{
+	width: 100%;
+	/*height: 2400px;*/
+	overflow: auto;
+	/*background: red;*/
+	position: relative;
+	z-index: 3;
+}
+.gove_section_wrap{
+	width: 1331px;
+	height: 100%;
+	/*overflow-x: auto;*/
+	/*overflow: auto;*/
+	/*overflow-x: hidden;*/
+	/*background: red;*/
+	margin: 0 auto;
+}
+.gove_cate_wrap{
+	width: 100%;
+	height: 205px;
+	/*background: blue;*/
+}
+.gove_cate_wrap_left{
+	width: 241px;
+	height: 100%;
+	float: left;
+	/*background: red;*/
+	box-sizing: border-box;
+	padding-top: 34.5px;
+}
+.gove_cate_circle{
+	width: 136px;
+	height: 136px;
+	border-radius: 50%;
+	background: #6a3bff;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.gove_cate_circle > p{
+	color: white;
+}
+.gove_cate_wrap_right{
+	width: 1000px;
+	height: 100%;
+	float: left;
+	/*background: red;*/
+}
+.gove_cate_item{
+	width: 128px;
+	height: 100%;
+	float: left;
+	margin-left: 50px;
+	cursor: pointer;
+	/*background: blue;*/
+	text-align: center;box-sizing: border-box;
+	padding-top: 45px;
+}
+.gove_cate_item > img{
+	width: 60%;
+}
+.gove_cate_item > p{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.gove_top_wrap{
+	width: 100%;
+	height: 364px;
+	/*background: red;*/
+	margin-top: 35px;
+}
+.gove_top_title{
+	width: 100%;
+	height: 43px;
+	background: #6a3bff;
+}
+.gove_top_title > p{
+	text-align: center;
+	line-height: 43px;
+	color: white;
+	font-size: 20px;
+}
+.gove_top_div{
+	width: 100%;
+	height: 317px;
+	/*background: red;*/
+}
+.gove_top_div_wrap{
+	width: 99%;
+	height: 289px;
+	position: relative;
+	margin-top: 5px;
+	/*background: blue;*/
+}
+.gove_top_item{
+	width: 410px;
+	height: 289px;
+	box-sizing: border-box;
+	background: white;
+	border: 1px solid #dddddd;
+	margin-left: 10px;
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+.pull-left,.pull-right{
+	width: 43px;
+	height: 63px;
+	border: none;
+	color: white;
+	/*margin-left: 500px;*/
+	background: #68686B;
+	/*margin-top: 50px;*/
+	position: absolute;
+	left: -38px;
+	top: 100px;
+	text-align: center;
+	/*position: relative;*/
+}
+.pull-left > i,.pull-right > i{
+	color: white;
+	font-size: 2em;
+}
+.pull-right{
+	/*right: 38px;*/
+	left: 1340px;
+}
+.goves_logo{
+	width: 232px;
+	height: 112px;
+	/*background: red;*/
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.goves_logo > img{
+	width: 100%;
+}
+.gove_top_item > p{
+	font-size: 18px;
+	margin-top: 13px;
+}
+.gi{
+	width: 30%;
+}
+.gove_area_wrap{
+	width: 100%;
+	height: 228px;
+	/*background: red;*/
+	margin-top: 75px;
+}
+.gove_area_left{
+	width: 241px;
+	height: 100%;
+	float: left;
+	/*background: red;*/
+	box-sizing: border-box;
+	padding-top: 35px;
+}
+.gove_area_circle{
+	width: 136px;
+	height: 136px;
+	background: #6a3bff;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.gove_area_circle > p{
+	color: white;
+	font-size: 17px;
+	margin-top: 5px;
+}
+.gove_area_right{
+	width: 950px;
+	/*background: red;*/
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 53px;
+}
+.gove_area_right > span{
+	font-size: 23px;
+	cursor: pointer;
+	margin-left: 50px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.gove_banner{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: red;
+	/*background: red;*/
+}
+.gove_banner > img{
+	width: 100%;
+	height: 100%;
+	/*height: 100%;*/
+}
+.gove_list{
+	width: 100%;
+	/*height: 1135px;*/
+	overflow: auto;
+	/*background: red;*/
+	margin-top: 35px;
+	padding-bottom: 50px;
+}
+.gove_list_top{
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+	box-sizing: border-box;
+	border-bottom: 1px solid #dddddd;
+}
+.gove_list_top > div{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.alls_gove{
+	width: 229px;
+	height: 102%;
+	background: white;
+	box-sizing: border-box;
+	border-left: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+.alls_gove > p{
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: #6a3bff;
+}
+.gove_list_select{
+	margin-left: 216px;
+	float: left;
+	width: 124px;
+	height: 42px;
+	border: 1px solid #dddddd;
+	color: #6a3bff;box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 1.1em;
+}
+.gove_search{
+	float: left;
+	width: 312px;
+	margin-left: 10px;
+	background: white;
+	height: 42px;
+	border: 1px solid #dddddd;
+	color: #6a3bff;box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 1.1em;
+}
+.gove_search_btn{
+	width: 124px;
+	height: 41px;
+	background: #6a3bff;
+	color: white;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer;
+}
+.gove_search_btn > span{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.1em;
+}
+.gove_search_btn > i,.gove_search_btn > span{
+	color: white;
+}
+.gove_list_body{
+	width: 100%;
+	/*height: 1000px;*/
+	overflow: auto;
+	/*background: blue;*/
+}
+.gove_item{
+	width: 100%;
+	height: 95px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dddddd;
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+.gove_item_logo{
+	float: left;
+	width: 207px;
+	height: 75px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	/*padding-left: 10px;*/
+	text-align: center;
+	margin-left: 20px;
+	overflow: hidden;
+	/*background: red;*/
+}
+.gove_item_logo > img{
+	width: 70%;
+	margin-left: 10px;
+}
+.gove_item_title{
+	cursor: pointer;
+	width: 643px;
+	height: 75px;
+	text-align: left;
+	float: left;
+}
+.gove_item_title > p{
+	width: 643px;
+	height: 75px;
+	text-align: left;
+	font-size: 16px;
+	margin-left: 20px;
+	line-height: 65px;
+	overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+.gove_item_divis{
+	width: 116px;
+	height: 75px;
+	float: left;
+	position: relative;
+}
+.gove_item_divis > p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 75px;
+}
+.company_list_info_two{
+	width: 171px;
+	height: 75px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 10px;
+	position: relative;
+	/*background: red;*/
+}
+.company_list_info_two > .info_two_top,.company_list_info_two > .info_two_bottom{
+	width: 100%;
+	height: 25px;
+	box-sizing: border-box;
+	
+}
+.info_two_top{
+	/*padding-top: 10px;*/
+}
+.info_two_bottom{
+	padding-bottom: 10px;
+}
+.company_list_info_two > div > *{
+	line-height: 40px;
+}
+.company_list_info_two > div > i{
+	color: #6a3bff;
+	font-size: 1.1em;
+	margin-left: 10px;
+}
+.company_list_info_two > div > span{
+	text-align: center;
+	margin-left: 30px;
+}
+.company_gray_line{
+	width: 2px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	background: #cfcece;
+	top: 18px;
+}
+.gove_date{
+	width: 155px;
+	height: 75px;
+	/*background: red;*/
+	float: left;
+}
+.gove_date > p{
+	font-size: 17px;
+	text-align: center;
+	line-height: 65px;
+}
+.pageing{
+	width: 100%;
+	margin-top: 50px;
+	height: 100px;
+	background: red;
+}
+.gove_table{
+	width: 100%;
+	/*height: 1000px;*/
+	overflow: auto;
+	padding-bottom: 10px;
+	/*background: red;*/
+}
+.gove_table td{
+	border-bottom: 1px solid #ddd;
+}
+.numbers{
+	color: gray;
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	font-size: 18px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+#remo{
+	height: 100px;
+	margin-top: 30px;
+	border-bottom: none;
+}
+.active{
+	color: black;
+	font-weight: bold;
+}

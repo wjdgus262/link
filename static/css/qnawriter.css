@@ -1,0 +1,153 @@
+.wrap{
+	width: 100%;
+	/*background: red;*/
+	/*height: 2749px;*/
+	/*height: auto;*/
+	overflow:auto; 
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	/*background: red;*/
+}
+.company_top{
+	width: 100%;
+	height: 352px;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+}
+.company_top > img{
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+.mi_div{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 2;
+	background: rgba(1,93,44,0.5);
+}
+.company_title{
+	width: 579px;
+	height: 117px;
+	margin: 0 auto;
+	margin-top: 110px; 
+}
+.company_title > h1{
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+}
+.company_title > p{
+	color: white;
+	text-align: center;
+	font-size: 0.9em;
+	text-shadow: 2px 2px 2px gray;
+}
+.comapny_nav{
+	width: 1335px;
+	height: 235px;
+	background: white;
+	border-radius: 300px;
+	position: absolute;
+	top: 250px;
+	left: 292px;
+	z-index: 3;
+	box-sizing: border-box;
+	padding-top: 56px;
+	padding-left: 68px;
+}
+.comapny_nav > h1{
+	font-size: 27px;
+	text-align: center;
+}
+.comapny_nav > p{
+	text-align: right;
+	margin-right: 180px;
+	margin-top: 10px;
+}
+.qnawriter_section{
+	width: 100%;
+	height: 900px;
+	/*background: red;*/
+	position: relative;
+	z-index: 3;
+	top: -50px;
+}
+.qnawriter_wrap{
+	width: 1000px;
+	height: 100%;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.qnawriter_title{
+	width: 100%;
+	height: 100px;
+	/*background: red;*/
+}
+.qnawriter_icon{
+	width: 200px;
+	height: 50px;
+	/*float: left;*/
+	/*background: blue;*/
+}
+.qnawriter_icon  > h1{
+	font-weight: bold;
+	color: #6a3bff;
+}
+.icons_circle{
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	text-align: center;
+	background: #6a3bff;
+}
+.icons_circle > i{
+	color: white;
+	font-size: 37px;
+	line-height: 75px;
+}
+.qnatitle{
+	width: 85%;
+	height: 40px;
+	float: left;
+	margin-left: 15px;
+	box-sizing: border-box;
+	border: 1px solid #a695ef;
+	padding-left: 10px;
+}
+.qnaselect{
+	width: 13%;
+	border: 1px solid #a695ef;
+	height: 40px;
+	float: left;
+}
+.qnawriter_body{
+	width: 100%;
+	height: 700px;
+	margin-top: 10px;
+	/*background: red;*/
+}
+.qnawriter_btn{
+	width: 100%;
+	height: 40px;
+	/*background: red;*/
+	text-align: center;
+}
+.qnawriter_btn > button{
+	border: none;
+	color: white;
+	background: #6a3bff;
+	width: 100px;
+	height: 100%;
+	font-size: 18px;
+}
+.qnawriter_cancel{
+	background: red;
+}

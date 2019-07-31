@@ -1,0 +1,773 @@
+body{
+	/*background: red;*/
+}
+*{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 100%;
+	/*height: 1500px;*/
+	overflow: auto;
+	box-sizing: border-box;
+	/*padding-top: 70px;*/
+	
+}
+.mypage_section{
+	width: 100%;
+	/*height: 1500px;*/
+	height: auto;
+	/*background: red;*/
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding-bottom: 80px;
+}
+.mypage_user_wrap{
+	width: 1000px;
+	height: 300px;
+	/*background: blue;*/
+	margin: 0 auto;
+	box-sizing: border-box;
+	/*border-bottom: 1px solid #ddd;*/
+}
+.mypage_user_wrap > div{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.user_profile_circle{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.user_profile_circle > img{
+	/*width: 100%;*/
+}
+.user_wrap_left > h1{
+	text-align: center;
+	font-size: 2em;
+	margin-top: 15px;
+
+}
+.profile_table{
+	width: 250px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.profile_table * {
+	font-size: 15px;
+}
+.mypage_work_wrap{
+	width: 1335px;
+	/*height: 1000px;*/
+	height: auto;
+
+	/*background: red;*/
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.work_wrap_top{
+	/*width: 100%;*/
+	width: 200px;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	/*border-bottom: 1px solid #ddd;*/
+	/*border-top: 1px solid #ddd;*/
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+}
+.work_wrap_top > button{
+	border: 1px solid #6a3bff;
+	width: 120px;
+	height: 40px;
+	margin-top: 5px;
+	color: #6a3bff;
+	background: white;
+	cursor: pointer;
+}
+.work_wrap_top > button:nth-child(7){
+	margin-right: 0;
+}
+.work_wrap_body{
+	/*width: 100%;*/
+	width: 1135px;
+	float: left;
+	/*height: 1000px;*/
+	height: auto;
+	position: relative;
+	/*background: red;*/
+	margin-top: 10px;
+}
+.work_port{
+	left: 0;
+	top: 0;
+	width: 100%;
+	/*height: 100%;*/
+	height: auto;
+	padding-bottom: 60px;
+	margin-top:15px;
+	box-sizing: border-box;
+}
+.port_select{
+	width: 120px;
+	left: 0;
+	top: 5px;
+	margin-left: 0px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	color: #6a3bff;
+}
+.reply_sender_btn{
+	border: 1px solid #6a3bff;
+	width: 120px;
+	height: 40px;
+	/*margin-top: 5px;*/
+	color: #6a3bff;
+	left: 0;
+	/*top: 5px;*/
+	background: white;
+	float: left;
+	cursor: pointer;
+}
+.reply_payer_delete{
+	margin-top: 0;
+	border: 1px solid #6a3bff;
+	width: 120px;
+	height: 40px;
+	color: #6a3bff;
+	/*top: 5px;*/
+	margin-left: 10px;
+	background: white;
+	cursor: pointer;
+}
+.reply_send_delete{
+	margin-top: 0;
+	border: 1px solid #6a3bff;
+	width: 120px;
+	height: 40px;
+	color: #6a3bff;
+	/*top: 5px;*/
+	margin-left: 10px;
+	background: white;
+	cursor: pointer;
+}
+.scrap_delete{
+	margin-top: 0;
+	border: 1px solid #6a3bff;
+	width: 120px;
+	height: 40px;
+	margin-top: 5px;
+	color: #6a3bff;
+	/*top: 5px;*/
+	background: white;
+	/*margin-right: 100px;*/
+	cursor: pointer;
+	float: left;
+	/*fl*/
+}
+
+.work_port_item{
+	width: 266px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+	position: relative;
+	margin-left: 23px;
+	background: skyblue;
+}
+.work_port_item:nth-child(5n+1){
+	margin-left: 0;
+}
+.work_port_item > img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+.portfoilo_infos{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: none;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	/*display: none;*/
+	z-index: 2;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.portfoilo_infos > button{
+	width: 130px;
+	height: 45px;
+	cursor: pointer;
+	margin: 0 auto;
+	background: none;
+	color: white;
+	border-radius: 20px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	transition: ease 0.5s background;
+}
+.portfoilo_delete{
+	margin-top: 30px;
+}
+.profile_img_div > i{
+	font-size: 40em;
+}
+.work_scrap{
+	width: 100%;
+	/*height: 100%;*/
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.list_item {
+	position: relative;
+    float: left;
+    width: 260px;
+    height: 305px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+.scrap_check_div{
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 25px;
+	/*background: red;*/
+	height: 25px;
+	z-index: 10;
+}
+ .scrap_check_div input[type="checkbox"] {
+  /* 실제 체크박스는 화면에서 숨김 */ 
+  position: absolute; width: 1px; height: 1px;
+   padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 
+ } 
+ .scrap_check_div input[type="checkbox"] + label { 
+ 	display: inline-block; position: relative;
+ 	 cursor: pointer; -webkit-user-select: none; 
+ 	 -moz-user-select: none; -ms-user-select: none; 
+} 
+.scrap_check_div input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: ' '; display: inline-block; width: 21px; /* 체크박스의 너비를 지정 */
+	 height: 21px; /* 체크박스의 높이를 지정 */ line-height: 21px;
+	  /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center;
+	   vertical-align: middle; background: #fafafa; border: 1px solid #cacece; border-radius : 3px;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+} 
+.scrap_check_div input[type="checkbox"] + label:active:before, .scrap_check_div input[type="checkbox"]:checked + label:active:before { 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+.scrap_check_div input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '\2714'; 
+/* 체크표시 유니코드 사용 */ color: #99a1a7; text-shadow: 1px 1px #fff; background: #e9ecee;
+ border-color: #adb8c0; box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+ }
+.list_item:nth-child(4n+1){
+	margin-left: 0;
+}
+.list_item_wrap {
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    position: relative;
+    overflow: hidden;
+}
+.list_item_img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 240px;
+    /* background: red; */
+}
+.list_item_wrap_wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.list_item_wrap_wrap img {
+    width: 100%;
+}
+.item_info {
+    width: 100%;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: white;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.work_payer{
+	width: 100%;
+	/*height: 100%;*/
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.work_payer_table{
+	width: 100%;
+	height: auto;
+}
+.all_check_th {position: relative;}
+ .all_check_th input[type="checkbox"] {
+  /* 실제 체크박스는 화면에서 숨김 */ 
+  position: absolute; width: 1px; height: 1px;
+   padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 
+ } 
+ .all_check_th input[type="checkbox"] + label { 
+ 	display: inline-block; position: relative;
+ 	 cursor: pointer; -webkit-user-select: none; 
+ 	 -moz-user-select: none; -ms-user-select: none; 
+} 
+.all_check_th input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: ' '; display: inline-block; width: 21px; /* 체크박스의 너비를 지정 */
+	 height: 21px; /* 체크박스의 높이를 지정 */ line-height: 21px;
+	  /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center;
+	   vertical-align: middle; background: #fafafa; border: 1px solid #cacece; border-radius : 3px;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+} 
+.all_check_th input[type="checkbox"] + label:active:before, .all_check_th input[type="checkbox"]:checked + label:active:before { 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+.all_check_th input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '\2714'; 
+/* 체크표시 유니코드 사용 */ color: #99a1a7; text-shadow: 1px 1px #fff; background: #e9ecee;
+ border-color: #adb8c0; box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+ }
+.work_payer_table th{
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	color: #6a3bff;
+}
+.work_payer_table th > p{
+	color: #6a3bff;
+}
+.work_payer_table td{
+	text-align: center;
+}
+.work_payer_table tr{
+	height: 50px;
+}
+.payer_bodytext{
+	cursor: pointer;
+}
+.payer_body_check {position: relative;
+text-align: center;}
+ .payer_body_check input[type="checkbox"] {
+  /* 실제 체크박스는 화면에서 숨김 */ 
+  position: absolute; width: 1px; height: 1px;
+   padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 
+ } 
+ .payer_body_check input[type="checkbox"] + label { 
+ 	display: inline-block; position: relative;
+ 	 cursor: pointer; -webkit-user-select: none; 
+ 	 -moz-user-select: none; -ms-user-select: none; 
+} 
+.payer_body_check input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: ' '; display: inline-block; width: 21px; /* 체크박스의 너비를 지정 */
+	 height: 21px; /* 체크박스의 높이를 지정 */ line-height: 21px;
+	  /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center;
+	   vertical-align: middle; background: #fafafa; border: 1px solid #cacece; border-radius : 3px;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+} 
+.payer_body_check input[type="checkbox"] + label:active:before, .payer_body_check input[type="checkbox"]:checked + label:active:before { 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+.payer_body_check input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '\2714'; 
+/* 체크표시 유니코드 사용 */ color: #99a1a7; text-shadow: 1px 1px #fff; background: #e9ecee;
+ border-color: #adb8c0; box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+ }
+
+
+
+.work_send{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	/*height: 100%;*/
+	height: auto;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.work_send_table{
+	width: 100%;
+	height: auto;
+}
+.all_check_th_send {position: relative;}
+ .all_check_th_send input[type="checkbox"] {
+  /* 실제 체크박스는 화면에서 숨김 */ 
+  position: absolute; width: 1px; height: 1px;
+   padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 
+ } 
+ .all_check_th_send input[type="checkbox"] + label { 
+ 	display: inline-block; position: relative;
+ 	 cursor: pointer; -webkit-user-select: none; 
+ 	 -moz-user-select: none; -ms-user-select: none; 
+} 
+.all_check_th_send input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: ' '; display: inline-block; width: 21px; /* 체크박스의 너비를 지정 */
+	 height: 21px; /* 체크박스의 높이를 지정 */ line-height: 21px;
+	  /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center;
+	   vertical-align: middle; background: #fafafa; border: 1px solid #cacece; border-radius : 3px;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+} 
+.all_check_th_send input[type="checkbox"] + label:active:before, .all_check_th_send input[type="checkbox"]:checked + label:active:before { 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+.all_check_th_send input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '\2714'; 
+/* 체크표시 유니코드 사용 */ color: #99a1a7; text-shadow: 1px 1px #fff; background: #e9ecee;
+ border-color: #adb8c0; box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+ }
+.work_send_table th{
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	color: #6a3bff;
+}
+.work_send_table th > p{
+	color: #6a3bff;
+}
+.work_send_table td{
+	text-align: center;
+}
+.work_send_table tr{
+	height: 50px;
+}
+.send_bodytext{
+	cursor: pointer;
+}
+.send_body_check {position: relative;
+text-align: center;}
+ .send_body_check input[type="checkbox"] {
+  /* 실제 체크박스는 화면에서 숨김 */ 
+  position: absolute; width: 1px; height: 1px;
+   padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 
+ } 
+ .send_body_check input[type="checkbox"] + label { 
+ 	display: inline-block; position: relative;
+ 	 cursor: pointer; -webkit-user-select: none; 
+ 	 -moz-user-select: none; -ms-user-select: none; 
+} 
+.send_body_check input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: ' '; display: inline-block; width: 21px; /* 체크박스의 너비를 지정 */
+	 height: 21px; /* 체크박스의 높이를 지정 */ line-height: 21px;
+	  /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center;
+	   vertical-align: middle; background: #fafafa; border: 1px solid #cacece; border-radius : 3px;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+} 
+.send_body_check input[type="checkbox"] + label:active:before, .send_body_check input[type="checkbox"]:checked + label:active:before { 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+.send_body_check input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '\2714'; 
+/* 체크표시 유니코드 사용 */ color: #99a1a7; text-shadow: 1px 1px #fff; background: #e9ecee;
+ border-color: #adb8c0; box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+ }
+
+
+
+.myreply_modal{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	/*background: rgba(0,0,0,0.5);*/
+}
+.myreply_wrap{
+	width: 550px;
+	height: 580px;
+	background: white;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	/*margin: 0 auto;*/
+	/*margin-left: 710px;
+	margin-top: 250px;*/
+	margin: 0 auto;
+	margin-top: 250px;
+	padding: 15px;
+}
+.myreply_top{
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+	border-bottom: 1px solid #ddd;
+}
+.myreply_top > p{
+	color: #6a3bff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.myreply_top > span{
+	color: #6a3bff;
+	font-size: 13px;
+}
+.myreply_body{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	height: 460px;
+	border-bottom: 1px solid #ddd;
+}
+.myreply_body > p{
+	color: #6a3bff;
+	font-size: 13px;
+}
+.myreply_bottom{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	padding-top: 7.5px;
+	/*background: red;*/
+}
+.myreply_success{
+	float: right;
+	width: 75px;
+	height: 35px;
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	color: #6a3bff;
+	background: white;
+	cursor: pointer;
+}
+.myreply_re{
+	float: right;
+	width: 75px;
+	height: 35px;
+	box-sizing: border-box;
+	border: 1px solid #6a3bff;
+	color: #6a3bff;
+	background: white;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.reply_modal{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	/*background: rgba(0,0,0,0.5);*/
+}
+.reply_modal_wrap{
+	width: 550px;
+	height: 580px;
+	background: white;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	/*margin: 0 auto;*/
+	/*margin-left: 710px;
+	margin-top: 250px;*/
+	margin: 0 auto;
+	margin-top: 250px;
+	padding: 15px;
+}
+.reply_modal_top{
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+}
+.reply_modal_top > div{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.reply_modal_top h2{
+	margin-left: 20px;
+	line-height: 50px;
+	color: #6a3bff;
+}
+.top_right{
+	position: relative;
+}
+.top_right > i{
+	color: #6a3bff;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 1.4em;
+}
+.reply_modal_body{
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	padding: 10px;
+	/*background: red;*/
+}
+.reply_body_top{
+	/*background: blue;*/
+	width: 100%;
+	height: 45px;
+}
+.reply_body_top > *{
+	float: left;
+}
+.reply_body_top > p{
+	background: #6a3bff;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 45px;
+}
+.reply_input_id{
+	width: 405px;
+	margin-left: 10px;
+	border: 1px solid #6a3bff;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	float: left;
+}
+.reply_input_body{
+	width: 100%;
+	height: 365px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border: 1px solid #6a3bff;
+	resize: none;
+	padding: 5px;
+}
+.reply_body_bottom{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+}
+.reply_body_bottom > p{
+	float: right;
+	font-size: 13px;
+	color: gray;
+	line-height: 30px;
+}
+.reply_modal_bottom{
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+}
+.reply_success_btn{
+	float: right;
+	border: 1px solid #6a3bff;
+	background:white;
+	height: 35px;
+	margin-top: 5px;
+	width: 100px;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #6a3bff;
+}
+
+
+
+
+.work_port_search{
+	width: 100%;
+	height: 50px;
+}
+.work_port_search > div{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.port_search_right > *{
+	float: right;
+}
+.port_search_right > button{
+	width: 124px;
+    height: 43px;
+    background: #6a3bff;
+    color: white;
+    margin-left: 20px;
+    border: none;
+}
+.port_search_right > button > i, .port_search_right > button > span {
+    color: white;
+}
+.port_search_right > button > span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+.port_search_right > input{
+	    width: 347px;
+    height: 43px;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e7;
+    margin-left: 20px;
+    background: white;
+    padding-left: 10px;
+}
+.work_scrap_wrap{
+	width: 100%;
+	height: auto;
+}
+.work_port_wrap{
+	width: 100%;
+	height: auto;
+}
+
+.mypage_section_wrap{
+	width: 100%;
+	height: 300px;
+	/*box-sizing: border-box;*/
+	padding-bottom: 100px;
+}
+
+.page_icon > i{
+	color: #6a3bff;
+}
+.active{
+	font-weight: bold;;
+}
+.page-number{
+	cursor: pointer;
+}
+
+.update_profile_circle{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	right:  135px;
+	bottom: 60px;
+	cursor: pointer;
+	background: #6a3bff;
+	border-radius: 50%;
+	text-align: center;
+}
+.update_profile_circle > i{
+	line-height: 70px;
+	color: white;
+	font-size: 25px;
+}
